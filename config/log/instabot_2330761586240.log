@@ -1,0 +1,45 @@
+2021-06-01 14:15:45,176 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-06-01 14:15:45,176 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\hp\Desktop\instabot\lib\site-packages\instabot\bot\bot.py
+2021-06-01 14:15:45,177 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-06-01 14:15:45,657 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-06-01 14:15:46,053 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-06-01 14:15:46,470 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-06-01 14:15:46,871 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-06-01 14:15:48,409 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2021-06-01 14:15:48,409 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","two_factor_required":true,"two_factor_info":{"username":"_pragya_mittal181_","sms_two_factor_on":true,"totp_two_factor_on":false,"obfuscated_phone_number":"1181","two_factor_identifier":"qogFPuTnKa","show_messenger_code_option":false,"show_new_login_screen":true,"show_trusted_device_option":true,"should_opt_in_trusted_device_option":true,"pending_trusted_notification":false,"sms_not_allowed_reason":null,"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true}},"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true},"status":"fail","error_type":"two_factor_required"}'
+2021-06-01 14:15:48,409 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-06-01 14:15:48,409 - instabot version: 0.117.0 (api) - INFO - Two-factor authentication required
+2021-06-01 14:16:21,073 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as '_pragya_mittal181_'!
+2021-06-01 14:16:21,073 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-06-01 14:16:21,490 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-06-01 14:16:22,006 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-06-01 14:16:22,407 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-47e71a80c7812f9f&token_hash=&custom_device_id=android-47e71a80c7812f9f&fetch_reason=token_expired returned response: <Response [200]>
+2021-06-01 14:16:22,824 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-06-01 14:16:23,225 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-06-01 14:16:24,163 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2021-06-01 14:16:24,663 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-06-01 14:16:25,495 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-06-01 14:16:30,930 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-06-01 14:16:31,299 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-06-01 14:16:32,262 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-06-01 14:16:32,751 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-06-01 14:16:34,304 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-06-01 14:16:34,805 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-06-01 14:16:35,205 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-06-01 14:16:35,720 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-06-01 14:16:36,136 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-06-01 14:16:36,536 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-06-01 14:16:36,953 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-06-01 14:16:37,539 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/5646228618/info/ returned response: <Response [200]>
+2021-06-01 14:16:37,976 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-06-01 14:16:39,540 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-06-01 14:16:40,029 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-06-01 14:16:42,916 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=12ccf60f-20fa-489b-a62c-fdbb7df65c4c&include_fixed_destinations=true returned response: <Response [200]>
+2021-06-01 14:16:43,400 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-06-01 14:16:43,984 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-06-01 14:16:43,987 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\hp\PycharmProjects\instabot/config/_pragya_mittal181_.checkpoint
+2021-06-01 14:17:05,112 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2021-06-01 14:17:05,529 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2021-06-01 14:17:05,529 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'p.jpeg' is uploaded.
+2021-06-01 14:17:05,529 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\hp\PycharmProjects\instabot/config/_pragya_mittal181_.checkpoint
+2021-06-01 14:17:05,533 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33
